@@ -23,7 +23,7 @@ public:
             int len = r-l-1;
             if(len > max_len){
                 max_len = len;
-                st = l+1;
+                st = l+1;             // start will remain same until WE GET NEW MAXIMUM LENGTH OF OURS
                 end = r-1;
             }
         }
